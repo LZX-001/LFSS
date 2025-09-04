@@ -10,9 +10,9 @@ And you can adjust the experimental setup and hyperparameters in the main.py.
 
 ## Test
 ```bash
-torchrun  --nproc_per_node=1 --master_port 4831 test.py
+torchrun  --nproc_per_node=1 --master_port 4831 eval.py
 ```
-use the specific svae_dir and checkpoint for testing.
+please modify the specific save_dir and checkpoint for testing.
 
 ## Acknowlegement
 torch_clustering: https://github.com/Hzzone/torch_clustering
